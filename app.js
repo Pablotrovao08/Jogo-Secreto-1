@@ -42,7 +42,7 @@ function gerarNumeroAleatorio(){
     let numeroEscolhido = parseInt(Math.random() * numeroMaximo + 1)
     let quantidadeDeElementosDaLista = listaNumeroSorteado.length
     
-    if(quantidadeDeElementosDaLista ==numroMaximo){
+    if(quantidadeDeElementosDaLista ==numeroMaximo){
         listaNumeroSorteado = []
     }
 
